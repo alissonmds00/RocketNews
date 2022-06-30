@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+#logo {
+    position: absolute;
+    width: 20em;
+    height: 10em;
+    left: 30px;
+    top: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.itens {
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: nowrap;
+}
+
+#background {
+    background-color: #121214;
+}
+
+
+input {
+    position: absolute;
+    width: 798px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
